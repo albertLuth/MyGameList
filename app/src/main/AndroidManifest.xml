@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.albert.myapplication">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icono"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivitySort"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".RegisterGame"
+            android:theme="@style/AppTheme"
+            android:label="Add a game">
+        </activity>
+        <activity
+            android:name=".RegisterCharacter"
+            android:theme="@style/AppTheme"
+            android:label="Add a character"/>
+        <activity
+            android:name=".RegisterObject"
+            android:theme="@style/AppTheme"
+            android:label="Add an object"/>
+        <activity
+            android:name=".RegisterMission"
+            android:theme="@style/AppTheme"
+            android:label="Add a mission"/>
+        <activity
+            android:name=".ViewGame"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ViewGameSort"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ViewMission"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ViewCharacter"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ViewObject"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EditGame"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EditObject"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EditMission"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EditCharacter"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".About"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Information"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>

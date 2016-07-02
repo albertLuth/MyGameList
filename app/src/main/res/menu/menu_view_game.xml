@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.albert.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/Add"
+        android:orderInCategory="100"
+        android:title="Add"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/SortBy"
+        android:orderInCategory="100"
+        android:title="Show by"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/EditGame"
+        android:orderInCategory="100"
+        android:title="Edit game"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/DeleteGame"
+        android:orderInCategory="100"
+        android:title="Delete game"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Help"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/add"
+        android:title="@string/add"
+        android:icon="@drawable/add"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+</menu>

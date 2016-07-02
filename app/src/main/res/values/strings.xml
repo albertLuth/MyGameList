@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyGameList</string>
+    <string name="action_settings">Settings</string>
+
+    //REGISTER GAME
+    <string name="title">Title</string>
+    <string name="platform">Platform</string>
+    <string name="year">Year</string>
+    <string name="studio">Studio</string>
+    <string name="state">Playing</string>
+
+    <string name="description">Description</string>
+    <string name="points">Points</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="add">Add a game</string>
+    <string name="about">About</string>
+    <string name="sortBy">Sort by</string>
+    <string name="showBy">Show by</string>
+
+    //REGISTER CHARACTER
+    <string name="name">Name</string>
+    <string name="race">Race</string>
+    <string name="level">Level</string>
+
+</resources>
